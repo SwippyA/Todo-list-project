@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list </title>
+    <link rel="stylesheet" href="todo_list.css">
+</head>
+
+<body>
+    <h1 class="head">Todo List for Project</h1>
+    <input placeholder="Todo List" class="todo" onkeydown="onkeydown1(event);">
+    <input class="date_1" type="date">
+    <button class="add" onclick="adding();">Add</button><br>
+
+
+
+    <div class="upper">
+        <span class="upper_todo">Todo</span>
+        <span class="upper_date">Date</span>
+        <span class="upper_remove">Remove</span>
+    </div>
+    <div class="output">
+
+    </div>
+
+    <script src="todo_list.js"></script>
+</body>
+
+</html>

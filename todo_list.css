@@ -1,0 +1,171 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 23px;
+    text-decoration: underline;
+}
+
+.todo {
+    padding: 8px 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 39px;
+    background-color: rgb(221, 170, 50);
+    /* border: none; */
+    color: black;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.date_1 {
+    padding: 8px 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 39px;
+    background-color: rgb(221, 170, 50);
+    /* border: none; */
+    box-shadow: 2px 2px 3px black;
+}
+
+
+
+.add {
+    padding: 8px 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 39px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.add:hover {
+    cursor: pointer;
+    background-color: rgb(134, 215, 134);
+    color: rgb(208, 108, 108);
+}
+
+.output {
+    position: relative;
+    top: 121px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* border: 3px solid black; */
+    padding: 12px;
+    /* display: flex; */
+    height: 380px;
+    /* flex-direction: column; */
+    position: relative;
+}
+
+.upper {
+    position: relative;
+    top: 128px;
+    /* border: 3px solid black; */
+
+}
+
+.upper_todo {
+    position: relative;
+    left: -503px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.upper_date {
+    position: relative;
+    left: 38px;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.upper_remove {
+    position: relative;
+    left: 528px;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.list_css,
+.date_css,
+.delete {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.list_css {
+    width: 200px;
+    text-align: left;
+    margin-right: 20px;
+    position: relative;
+    left: -405px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.date_css {
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+    /* Adjust margin for proper separation */
+    position: relative;
+    left: -69px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.delete {
+    position: relative;
+
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 0;
+    left: 402px;
+    box-shadow: 2px 2px 3px black;
+    /* Remove the margin-right to prevent overlap */
+}
+
+.delete:hover {
+    color: rgb(79, 57, 57);
+}
